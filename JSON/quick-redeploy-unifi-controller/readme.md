@@ -1,6 +1,6 @@
 # quick-redeploy-unifi-controller
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/tykoe/Azure/master/JSON/quick-redeploy-unifi-controller/redeploy-main.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftykoe%2FAzure%2Fmaster%2FJSON%2Fquick-redeploy-unifi-controller%2Fredeploy-main.json" target="_blank">
     <img src="https://redeploy.se/wp-content/uploads/2015/11/redeploy-to-azure.png"/>
 </a>
 
