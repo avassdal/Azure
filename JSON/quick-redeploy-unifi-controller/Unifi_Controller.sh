@@ -1,8 +1,10 @@
 #!/bin/bash
-echo “deb http://www.ubnt.com/downloads/unifi/debian unifi5 ubiquiti” | sudo tee -a /etc/apt/sources.list
-sudo apt-key adv –keyserver keyserver.ubuntu.com –recv 06E85760C0A52C50
-sudo apt-get update
-sudo apt-get install unifi -y
+sudo -i
+apt-get update; apt-get install ca-certificates wget -y
+wget https://get.glennr.nl/unifi/install/unifi-5.10.25.sh
+chmod +x unifi-5.10.25.sh
+./unifi-5.10.25.sh
+
 echo "echo \"\"" >> /etc/profile
 echo "echo \"██▀███  ▓█████ ▓█████▄ ▓█████  ██▓███   ██▓     ▒█████  ▓██   ██▓\"" >> /etc/profile
 echo "echo \"▓██ ▒ ██▒▓█   ▀ ▒██▀ ██▌▓█   ▀ ▓██░  ██▒▓██▒    ▒██▒  ██▒ ▒██  ██▒\"" >> /etc/profile
