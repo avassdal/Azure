@@ -70,7 +70,7 @@
     "TemplateBase": "https://github.com/avassdal/Azure/tree/master/JSON/quick-redeploy-unifi-controller",
     "ScriptFile": "[parameters('Application')]",
     "ScriptType": ".sh",
-    "apiVersion": "2015-05-01-preview",
+    "apiVersion": "2017-06-01",
     "Location": "[resourceGroup().location]",
     "imagePublisher": "Canonical",
     "imageOffer": "UbuntuServer",
